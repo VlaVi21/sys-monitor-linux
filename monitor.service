@@ -1,0 +1,17 @@
+[Unit]
+Description=Системний моніторинг телеметрії
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/sys_monitor
+ExecStart=/usr/bin/python3 /opt/sys_monitor/sys_monitor.py
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=sys_monitor
+User=root
+
+[Install]
+WantedBy=multi-user.target

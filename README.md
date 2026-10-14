@@ -27,6 +27,12 @@ Timestamp,Temp_C,CPU_Load_%,RAM_Usage_%
 2026-10-07 12:00:10,45.5,8.1,38.8
 ```
 
+## Вивід потрібних даних
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6fb3832c-976d-4f16-b8cc-14937a758ed8" alt="Запуск у терміналі" width="700">
+</p>
+
 ## Вимоги
 
 - Linux (або WSL)
